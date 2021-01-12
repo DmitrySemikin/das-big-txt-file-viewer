@@ -1,1 +1,3 @@
-# das-big-txt-file-viewer
+# das-big-txt-file-viewer #
+
+This project does not yet has anything interesting...
