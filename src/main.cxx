@@ -1,6 +1,10 @@
-#include <iostream>
+#include <QApplication>
+
+#include "BfvMainWindow.hxx"
 
 int main(int argc, char ** argv) {
-    std::cout << "Hello World!" << std::endl;
-    return 0;
+    QApplication qApplication(argc, argv);
+    BfvMainWindow mainWindow;
+    mainWindow.show();
+    return qApplication.exec();
 }

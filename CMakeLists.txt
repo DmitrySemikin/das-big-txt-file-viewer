@@ -21,14 +21,17 @@ set(CMAKE_AUTORCC ON)
 set(
     SOURCES
         src/main.cxx
+        src/BfvMainWindow.cxx
 )
 
 set(
     HEADERS
+    src/BfvMainWindow.hxx
 )
 
 set(
     UIS
+        src/BfvMainWindow.ui
 )
 
 set(
