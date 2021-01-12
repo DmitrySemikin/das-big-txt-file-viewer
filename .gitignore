@@ -1,6 +1,9 @@
 *~
 *.swp
 
+.vscode/
+build/
+
 # Prerequisites
 *.d
 
